@@ -23,7 +23,6 @@ const Login = () => {
           navigate('/')
       })
             .catch(() => alert('Wrong username or password'))
-            
     }
 
   return (

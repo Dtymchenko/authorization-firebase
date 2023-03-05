@@ -18,7 +18,7 @@ const SignUp = () => {
                 dispatch(setUser({
                     email:user.email,
                     id: user.uid,
-                    token: user.refreshToken
+                    token: user.refreshToken,
                 }))
                 navigate('/')
             })
