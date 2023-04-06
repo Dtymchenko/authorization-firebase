@@ -1,5 +1,3 @@
-import React from 'react'
-import styles from './SignUp.module.scss'
 import { useAppDispatch } from '../../hooks/redux-hooks'
 import Form from '../Form/Form'
 import { setUser } from '../../store/slices/userSlice'
@@ -7,6 +5,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom'
 
 const SignUp = () => {
+
 
     const dispatch = useAppDispatch()
     const navigate = useNavigate()
